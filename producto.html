@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Store</title>
+    <meta name="description" content="Pagina web tienda de camisas FrontEnd">
+    
+    <!-- Agregamos hojas de estilo, fuente y preloads -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" 
+    />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" 
+      as="font" crossorigin="crossorigin">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="css/stylos.css" as="style">
+    <link rel="stylesheet" href="css/stylos.css" />
+  </head>
+
+
+  <body>
+    <!-- Inicio cabecera -->
+    <header class="header">
+      <a href="index.html"
+        ><img class="header__logo" src="img/logo.png" alt="Logotipo"
+      /></a>
+    </header>
+    <!-- Fin cabecera -->
+
+    <!-- Inicio navegacion -->
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <!-- Fin navegacion -->
+
+    <main class="contenedor">
+      <h1>React JS</h1>
+      <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto" />
+
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            repellat ut excepturi expedita ea vero commodi blanditiis quas! Nemo
+            culpa voluptatum sequi unde hic pariatur aut deleniti. Quaerat, aut
+            quod!
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo" name="" id="">
+              <option value="" disabled selected>--Elige la talla--</option>
+              <option class="opcion" value="">Pequeña</option>
+              <option class="opcion" value="">Mediana</option>
+              <option class="opcion" value="">Grande</option>
+            </select>
+            <input
+              type="number"
+              min="1"
+              placeholder="Cantidad"
+              class="formulario__campo"
+            />
+            <input
+              type="submit"
+              value="Agregar al carrito"
+              class="formulario__submit"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Inicio footer  -->
+    <footer class="footer">
+      <p class="footer__text">
+        Front End Store - Todos los derechos Reservados 2023
+      </p>
+    </footer>
+    <!-- Fin footer -->
+  </body>
+</html>

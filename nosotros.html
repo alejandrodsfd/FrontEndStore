@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Store</title>
+    <meta name="description" content="Pagina web tienda de camisas FrontEnd">
+    
+    <!-- Agregamos hojas de estilo, fuente y preloads -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" 
+    />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" 
+      as="font" crossorigin="crossorigin">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="css/stylos.css" as="style">
+    <link rel="stylesheet" href="css/stylos.css" />
+  </head>
+
+  <body>
+    <!-- Inicio cabecera -->
+    <header class="header">
+      <a href="index.html"
+        ><img class="header__logo" src="img/logo.png" alt="Logotipo"
+      /></a>
+    </header>
+    <!-- Fin cabecera -->
+
+    <!-- Inicio navegacion -->
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a
+        class="navegacion__enlace navegacion__enlace--activo"
+        href="nosotros.html"
+        >Nosotros</a
+      >
+    </nav>
+    <!-- Fin navegacion -->
+
+    <main class="contenedor">
+      <h1>Sobre Nosotros</h1>
+
+      <!-- Inicio grid -->
+      <div class="nosotros">
+        <div class="nosotros__texto">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            fringilla aliquam suscipit. Sed sit amet lacus rhoncus, varius felis
+            a, bibendum est. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Proin enim urna, tempus
+            et suscipit ut, consectetur eu odio. Nullam ut turpis at arcu
+            lobortis ornare. Phasellus at placerat risus. Ut pretium diam id
+            nunc laoreet gravida.
+          </p>
+          <p>
+            Quisque vulputate congue mi, non sagittis purus aliquam ac.
+            Suspendisse sollicitudin pellentesque mi, ac egestas dolor sodales
+            convallis. Morbi euismod euismod dignissim. Etiam at ultrices quam,
+            sed porttitor nunc. Donec mollis, neque id pellentesque porta, arcu
+            leo laoreet nulla, eu lobortis elit augue eu ligula. Phasellus
+            interdum, sapien sed gravida porttitor, justo lectus varius lacus,
+            sit amet cursus erat nisi rutrum lacus.
+          </p>
+        </div>
+
+        <img
+          class="nosotros__imagen"
+          src="img/nosotros.jpg"
+          alt="imagen nosotros"
+        />
+      </div>
+      <h2>Porqué comprar con nosotros</h2>
+      <div class="nosotros__imagenes">
+        <section class="nosotros__centrar">
+          <img src="img/icono_1.png" alt="icono dinero" />
+          <h3 class="margin">El mejor precio</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            placeat beatae impedit doloribus aspernatur unde.
+          </p>
+        </section>
+        <section class="nosotros__centrar">
+          <img src="img/icono_2.png" alt="icono css" />
+          <h3 class="margin">Para devs</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            placeat beatae impedit doloribus aspernatur unde.
+          </p>
+        </section>
+        <section class="nosotros__centrar">
+          <img src="img/icono_3.png" alt="icono camion" />
+          <h3 class="margin">Envio gratis</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            placeat beatae impedit doloribus aspernatur unde.
+          </p>
+        </section>
+        <section class="nosotros__centrar">
+          <img src="img/icono_4.png" alt="icono bloqueo" />
+          <h3 class="margin">La mejor calidad</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            placeat beatae impedit doloribus aspernatur unde.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Inicio footer  -->
+    <footer class="footer">
+      <p class="footer__text">
+        Front End Store - Todos los derechos Reservados 2023
+      </p>
+    </footer>
+    <!-- Fin footer -->
+  </body>
+</html>
